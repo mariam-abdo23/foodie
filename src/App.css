@@ -1,0 +1,283 @@
+.nav-link.active {
+    color: #f35b04 !important;
+}
+
+.dropdown-item.active {
+    background-color: #f35b04 !important;
+    color: white !important;
+}
+
+nav {
+    box-shadow: 0 4px 6px #f35c0451;
+}
+.home{
+   min-height: 100vh;
+   
+}
+.Over{
+  background-image: url('./../src/assets/Easiest-Pizza_22-2_11.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 60vh;
+}
+.overlay{
+    background-color: #000000bb;
+    height: 60vh;
+}
+.custom-link {
+    display: inline-block;
+    font-weight: bold;
+    border: 2px solid #f35b04;
+    padding: 8px 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-link:hover {
+    background-color: #f35b04;
+   
+}
+
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    color: white; 
+}
+.products-card {
+    position: relative;
+  }
+  
+  /* .products-card {
+    position: relative;
+  }
+   */
+  .products-card h5, h2{
+    color: #f35b04;
+    text-shadow: 2px 2px 5px #ff5e00b4;
+  }
+   
+  
+  .products-card{
+    box-shadow: #f35c046a 2px 3px 3px 2px;
+  }
+  .products-card:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out ;
+    box-shadow: #f35c04f7 2px 3px 3px 2px;
+  }
+  .product-img {
+    height: 250px; 
+    object-fit: cover; 
+  }
+
+.product-Details{
+
+  transform: scale(1.02);
+  box-shadow: #f35c04f7 2px 3px 3px 2px;
+}
+
+.prodect{
+  background-image: url('./../src/assets/Easiest-Pizza_22-2_11.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height:100%;
+}
+.over-lay{
+    background-color: #f1ebebd6;
+    height: 100%;
+}
+
+
+.favorite-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.heart-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.heart-icon:hover {
+  transform: scale(1.2);
+}
+
+.cart-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mySwiper {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.why-choose-us {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+
+
+.why-choose-us .row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.why-choose-us .col-md-12 {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.why-choose-us .col-md-12:hover {
+  transform: translateY(-5px);
+}
+
+.Card{
+  background: rgb(252, 228, 187);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgb(190, 85, 0);
+  transition: transform 0.3s;
+}
+.Card:hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out ;
+  box-shadow: #f35c04f7 2px 3px 3px 2px;
+}
+
+.fav{
+  background-color: #ffdbcfb8;
+  border-radius: 12px;
+}
+html, body {
+  height: 100%;
+  margin: 0; 
+  display: flex; 
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #333; 
+  color: white;
+  text-align: center;
+  /* padding: 20px; */
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #f35b04;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #f35b04;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.google-btn, .facebook-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.google-btn {
+  background: #db4437;
+  color: white;
+}
+
+.facebook-btn {
+  background: #1877f2;
+  color: white;
+}
+
+.navbar .btn {
+  padding: 8px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .btn-primary {
+  background-color: #f35b04;
+  border: none;
+}
+
+.navbar .btn-primary:hover {
+  background-color: #d94e03;
+}
+
+.navbar .btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.navbar .btn-danger:hover {
+  background-color: #bb2d3b;
+}
