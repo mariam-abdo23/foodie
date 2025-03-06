@@ -28,7 +28,7 @@ export default function Navbar() {
               <NavLink className="nav-link" to="/index">Home</NavLink>
             </li>
             <li className="nav-item dropdown">
-              <NavLink className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <NavLink className="nav-link " to="/products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Categories
               </NavLink>
               <ul className="dropdown-menu">

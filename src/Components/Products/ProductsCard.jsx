@@ -6,7 +6,7 @@ import { faHeart as regularHeart } from '@fortawesome/free-regular-svg-icons';
 import { faHeart as solidHeart, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router';
 
-export default function Products() {
+export default function ProductsCard() {
   const product = useContext(ProductsContext);
   const { addToCart } = useContext(CartContext);
   const [favorites, setFavorites] = useState([]);
