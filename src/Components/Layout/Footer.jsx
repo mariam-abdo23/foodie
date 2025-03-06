@@ -5,7 +5,7 @@ import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg
 
 export default function Footer() {
   return (
-    <footer className="footer text-light w-100 py-4">
+    <footer className="footer text-light w-100  py-4">
       <div className="container text-center">
         <div className="row">
           

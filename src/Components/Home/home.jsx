@@ -76,7 +76,7 @@ export default function Home() {
                       {product.product_name}
                     </h5>
                     <p className="badge mt-2 text-bg-warning fs-6">
-                      <span>Price: </span>
+                      <span>Price: $</span>
                       {product.price}
                     </p>
                   </div>

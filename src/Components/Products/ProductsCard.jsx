@@ -31,10 +31,11 @@ export default function ProductsCard() {
   
   const allProducts = product?.flatMap(category => category.items) || [];
 
-  return (
+  return <>
+    <div className='home'>
     <div className='prodect'>
       <div className='over-lay'>
-        <div className='container'>
+        <div className='container pb-5'>
           <div className="row g-5">
             {allProducts.map((product) => {
               const isFavorite = favorites.some(fav => fav.product_code === product.product_code);
@@ -82,5 +83,7 @@ export default function ProductsCard() {
         </div>
       </div>
     </div>
-  );
+    </div>
+   
+    </>
 }

@@ -16,7 +16,7 @@ export default function Favorites() {
 
   return <>
    
-      <div className="over-lay">
+      <div className="pages">
       <div className="container">
       <div>
         <h2 className="text-center p-5" style={{ color: "#f35b04" }}>Favorites ❤</h2>

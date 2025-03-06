@@ -9,7 +9,8 @@ export default function Cart() {
 
   return (
     <>
-      <div className="over-lay">
+      
+        <div className="lay">
         <div className="cart-container">
           <div className="text-center pt-5">
             <h2>Shopping Cart</h2>
@@ -21,7 +22,7 @@ export default function Cart() {
           ) : (
             <div className="container">
               {cartItems.map((product) => (
-                <div key={product.product_code} className="cart-item d-flex p-5 border rounded">
+                <div key={product.product_code} className="cart-item border shadow border-warning rounded my-5 d-flex p-5">
                   <div className="row">
                     <div className="col-lg-4">
                       <div className="cart-item-image products-card ms-5" style={{ width: "70%" }}>
@@ -73,7 +74,9 @@ export default function Cart() {
             </div>
           )}
         </div>
-      </div>
+        </div>
+        
+      
     </>
   );
 }

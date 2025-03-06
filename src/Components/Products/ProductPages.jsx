@@ -42,10 +42,10 @@ function ProductPages() {
     }
   };
 
-  return (
-    <div className='prodect'>
-      <div className='over-lay'>
-        <div className='container text-center'>
+  return <>
+  
+      <div className='pages'>
+      <div className='container text-center'>
           <h2 className='p-5'>{Category}</h2>
           {products && products.length > 0 ? (
             <div className="row">
@@ -82,7 +82,7 @@ function ProductPages() {
                         <h5 className="card-title">{product.product_name}</h5>
                         <div className="d-flex justify-content-between align-items-center">
                           <p className="badge mt-2 text-bg-warning fs-6">
-                            <span>Price: </span>
+                            <span>Price: $</span>
                             {product.price}
                           </p>
                          
@@ -106,9 +106,10 @@ function ProductPages() {
             <p>Loading...</p>
           )}
         </div>
+  
       </div>
-    </div>
-  );
+      
+    </>
 }
 
 export default ProductPages;
