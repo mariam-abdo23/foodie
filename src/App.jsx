@@ -31,7 +31,7 @@ export default function App() {
       <AuthModal/>
       <ToastContainer/>
   <Routes>
-<Route path='index' element={<Home />}/>
+<Route path='/' element={<Home />}/>
 <Route path='/Products' element={ <ProductsCard />} />
 <Route path='/Product-details/:product_code' element={<ProductsDetails />} />
 <Route path='/category/:Category' element={<ProductPages/>}/>

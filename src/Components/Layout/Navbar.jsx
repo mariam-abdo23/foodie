@@ -16,7 +16,7 @@ export default function Navbar() {
   return <>
     <nav className="navbar navbar-expand-lg sticky-top bg-body-tertiary">
       <div className="container">
-        <NavLink className="navbar-brand fw-bold fs-1 logo" style={{ color: "#f35b04" }} to="index">
+        <NavLink className="navbar-brand fw-bold fs-1 logo" style={{ color: "#f35b04" }} to="/">
           Foodie
         </NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -25,7 +25,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto d-flex gap-4 fs-5 fw-bold">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/index">Home</NavLink>
+              <NavLink className="nav-link" to="/">Home</NavLink>
             </li>
             <li className="nav-item dropdown">
               <NavLink className="nav-link " to="/products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
